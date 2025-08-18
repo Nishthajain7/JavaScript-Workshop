@@ -1,11 +1,5 @@
-// 1. Select by ID
 let title = document.getElementById("title");
-let changeColorBtn = document.getElementById("titleColorBtn");
 
-// Make the Title red in color when change color button is clicked
+// Make the Title red when 'r' key is pressed
 
-// 2. Select by Class
-let infoParas = document.getElementsByClassName("info");
-let changeClassBtn = document.getElementById("changeClassBtn");
-
-// Apply highlight class when change class button in clicked
+// Change it back to black when 'r' key is released
