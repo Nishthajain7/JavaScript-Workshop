@@ -2,10 +2,16 @@
 let title = document.getElementById("title");
 let changeColorBtn = document.getElementById("titleColorBtn");
 
-// Make the Title red in color when change color button is clicked
+changeColorBtn.addEventListener("click", () => {
+  title.style.color = "red"; //  makes font red
+});
 
 // 2. Select by Class
 let infoParas = document.getElementsByClassName("info");
 let changeClassBtn = document.getElementById("changeClassBtn");
 
-// Apply highlight class when change class button in clicked
+changeClassBtn.addEventListener("click", () => {
+  for (let p of infoParas) {
+    p.classList.add("highlight");
+  }
+});
